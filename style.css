@@ -1,29 +1,75 @@
-nav{
+header {
     display: flex;
-    justify-content: flex-end;
-     justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
 }
 
+.logo img {
+    width: 58%; 
+}
 
+.navigation nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
 
-#p1{
+.navigation nav ul li {
+    display: inline;
+}
+
+#p1 {
     background-color: rgb(134, 4, 4);
     display: flex;
     justify-content: space-between;
-    padding: auto;
-    }
-
-#division1{
-      text-align: left;
-      float: left;
-      width: 60%;
-    }
-
-#division2{
-      text-align: center;
-      color: white;
-    }
-
+    padding: 20px;
+  }
+  
+  #division1, #division2 {
+    width: 50%;
+  }
+  
+  #division1 {
+    text-align: left;
+  }
+  
+  #division2 {
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  .section-container {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 50%;
+    height: auto;
+  }
     .carte{
         background-color: white;
         /*height:355px*/
@@ -38,6 +84,5 @@ nav{
         box-shadow: 1px 3px 10px 10px grey;
         align-content: center;
         display: flex;
-        display: inline-block;
-        justify-content: space-between;;
+        flex-flow: row wrap;
 }
