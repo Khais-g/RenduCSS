@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+     justify-content: space-between;
+}
+
+
+
+#p1{
+    background-color: rgb(134, 4, 4);
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    }
+
+#division1{
+      text-align: left;
+      float: left;
+      width: 60%;
+    }
+
+#division2{
+      text-align: center;
+      color: white;
+    }
+
+    .carte{
+        background-color: white;
+        /*height:355px*/
+        width: 200px;
+        padding: 40px;
+        /*marge des cotés qui est à définir*/
+        margin: 10px auto;
+        /* border radius pour arrondir les angles*/
+        border-radius: 20px;
+        text-align: center;
+        /*ombre*/
+        box-shadow: 1px 3px 10px 10px grey;
+        align-content: center;
+        display: flex;
+        display: inline-block;
+        justify-content: space-between;;
+}
